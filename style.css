@@ -45,7 +45,7 @@ textarea {
 
 .showcase {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
   background: url("./background_image.jpg") no-repeat center center/cover;
 }
@@ -101,10 +101,6 @@ textarea {
   align-items: flex-start;
   text-align: left;
   padding: 2rem 2rem;
-}
-
-.formm h1 {
-  margin-bottom: 2rem;
 }
 
 .formm {
