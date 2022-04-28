@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+.showcase-content p {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
+img {
+  width: 100%;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url("./background_image.jpg") no-repeat center center/cover;
+}
+
+.showcase::after {
+  content: "";
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 98%;
+  height: 98%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: inset 3rem 1rem 15rem #000000;
+}
+
+.logo {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 15rem;
+}
+
+.logo img {
+  width: 17rem;
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo p {
+  color: white;
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5rem 0;
+  font-size: 2rem;
+}
+
+.showcase-content {
+  position: relative;
+  z-index: 2;
+  width: 40rem;
+  height: 65rem;
+  background: rgb(0, 0, 0, 0.65);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 2rem 2rem;
+}
+
+.formm {
+  width: 100%;
+  margin-bottom: 4rem;
+  box-sizing: border-box;
+}
+
+.formm .info .email {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 2.7rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
+
+.formm .btn {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background: red;
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0.1rem 0 rgba(0, 0, 0, 0.45);
+}
+
+.movie-type p {
+  margin-bottom: 0.7rem;
+}
+
+.movie-type label {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.2rem;
+  padding: 0;
+}
+
+.movie-type input[type="checkbox"] {
+  transform: scale(0.7);
+}
+
+#content-type {
+  margin-bottom: 0.8rem;
+}
+.gender p {
+  margin-top: -0.3rem;
+}
+
+.gender label {
+  font-size: 1.2rem;
+}
+
+.gender input[type="radio"] {
+  transform: scale(0.7);
+}

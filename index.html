@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+  </head>
+  <body>
+    <header class="showcase">
+      <div class="logo">
+        <img src="https://i.ibb.co/r5krrdz/logo.png" />
+        <p>Thank you for signing up to Netflix. Tell me more about yourself.</p>
+      </div>
+
+      <div class="showcase-content">
+        <div class="formm">
+          <form>
+            <div class="info">
+              <label for="Name">Name</label>
+              <input type="text" placeholder="Enter your name ..." id="Name" class="email">
+
+              <label for="Age">Age</label>
+              <input type="number" placeholder="Enter your age ..." id="Age" class="email">
+
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                class="email"
+                type="email"
+                placeholder="Enter your Email ..."
+              />
+
+              <label for="content-type">Content Type</label>
+              <select class="email" id="content-type">
+                <option value="Series">Series</option>
+                <option value="Movies">Movies</option>
+                <option value="Animation">Animation</option>
+                <option value="Cartoon">Cartoon</option>
+              </select>
+
+              <div class="movie-type">
+                <p>Movie Type</p>
+                <label><input type="checkbox" name="Comedy" id="Comedy"  >Comedy</label>
+                <label><input type="checkbox" name="Action" id="Action" >Action</label>
+                <label><input type="checkbox" name="Romance" id="Romance"  >Romance</label>
+              </div>
+
+              <br><br>
+
+              <div class="gender">
+                <p>Gender</p>
+                <br>
+                <label><input type="radio" name="Gender" id="Male" checked>Male</label>
+                <br>
+                <label><input type="radio" name="Gender" id="Female">Female</label>
+                <br>
+                <label><input type="radio" name="Gender" id="Other">Other</label>
+                
+              </div>
+              
+              <div class="feedback">
+                <p>Feedback</p>
+                <textarea name="Feedback" id="Feedback" placeholder="Any comment"   class="email"></textarea>
+              </div>
+
+            </div>
+            <div class="btn">
+              <button class="btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
